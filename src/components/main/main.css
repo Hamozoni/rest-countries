@@ -1,0 +1,15 @@
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-gap: 40px;
+  justify-content: center;
+  padding-top: 2rem;
+  min-height: 67.3vh;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 72.3vh;
+}
