@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Country from '../country/Country'
 import SearchBar from '../searchBar/SearchBar';
 import { useSelector } from 'react-redux';
-//cuando ningun pais coincida con el searchInput mostrar un mensaje de que no hubo coincidencias
+
 const Main = () => {
   const darkMode = useSelector(state => state.darkModeReducer.darkMode)
   const [isLoading, setIsLoading] = useState(false)
